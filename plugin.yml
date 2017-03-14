@@ -1,0 +1,15 @@
+main: me.Tiernanator.Meow.Main
+version: 1.0
+name: Meowza
+description: Meow meow...
+load: POSTWORLD
+author: Tiernanator
+website: None
+database: false
+depend: [Utilities, Factions, Chatter]
+prefix: Meow
+softdepend: []
+loadbefore: []
+commands:
+    Meow:
+        description: Meow?
