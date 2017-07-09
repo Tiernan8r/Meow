@@ -9,12 +9,12 @@ import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 import org.bukkit.event.player.PlayerChatEvent;
 
-import me.Tiernanator.Meow.Main;
+import me.Tiernanator.Meow.MeowMain;
 
 @SuppressWarnings("deprecation")
 public class Meow implements CommandExecutor {
 
-	private static Main plugin;
+	private static MeowMain plugin;
 
 	static boolean isOP = false;
 
@@ -22,7 +22,7 @@ public class Meow implements CommandExecutor {
 	static List<String> subFactions;
 
 	// this has to stay the Main class won't be happy.
-	public Meow(Main main) {
+	public Meow(MeowMain main) {
 		plugin = main;
 	}
 

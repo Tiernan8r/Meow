@@ -1,4 +1,4 @@
-main: me.Tiernanator.Meow.Main
+main: me.Tiernanator.Meow.MeowMain
 version: 1.0
 name: Meowza
 description: Meow meow...

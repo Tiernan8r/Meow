@@ -4,7 +4,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 import me.Tiernanator.Meow.Command.Meow;
 
-public class Main extends JavaPlugin {
+public class MeowMain extends JavaPlugin {
 	
 	@Override
 	public void onEnable() {
